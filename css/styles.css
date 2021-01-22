@@ -4008,7 +4008,7 @@ input[type="button"].btn--primary:focus {
 
 .folio-item__thumb::after {
     z-index: 1;
-    content: "Click to View";
+    content: "";
     font-family: var(--font-2);
     font-weight: 300;
     font-size: 3rem;
