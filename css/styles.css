@@ -4714,13 +4714,6 @@ input[type="button"].btn--primary:focus {
   * Added by: Shealtiel Mulder
   * Added this CSS to create cards for skills that have a fade in animation
   *-------------------------------------------------------------------*/
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 /* Float four columns side by side */
 .column {
