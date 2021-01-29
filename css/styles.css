@@ -4714,6 +4714,9 @@ input[type="button"].btn--primary:focus {
   * Added by: Shealtiel Mulder
   * Added this CSS to create cards for skills that have a fade in animation
   *-------------------------------------------------------------------*/
+* {
+  box-sizing: border-box;
+}
 
 /* Float four columns side by side */
 .column {
@@ -4743,49 +4746,9 @@ input[type="button"].btn--primary:focus {
 
 /* Style the counter cards */
 .card {
+  font-family: Arial, Helvetica, sans-serif;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
 }
-
-.animated {
-
-  background-repeat: no-repeat;
-  background-position: left top;
-  margin-bottom:60px;
-  -webkit-animation-duration: 5s;
-  animation-duration: 5s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-         
-@-webkit-keyframes fadeInLeft {
-  0% {
-    opacity: 0;
-     -webkit-transform: translate3d(-50px,0,0);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translate3d(-50px,0,0);
-  }
-}
-         
-@keyframes fadeInLeft {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(-50px, 0, 0);
-    transform: translate3d(-50px,0,0);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translate3d(0);
-    transform: translate3d(0);
-  }
-}
-         
-.fadeInLeft {
-  -webkit-animation-name: fadeInLeft;
-  animation-name: fadeInLeft;
-} 
-animation-name: fadeInDown;
