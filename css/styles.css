@@ -4770,22 +4770,24 @@ body {
 @-webkit-keyframes fadeInLeft {
   0% {
     opacity: 0;
-     -webkit-transform: translateX(-60px);
+     -webkit-transform: translate3d(-50px,0,0);
   }
   100% {
     opacity: 1;
-    -webkit-transform: translateX(0);
+    -webkit-transform: translate3d(-50px,0,0);
   }
 }
          
 @keyframes fadeInLeft {
   0% {
     opacity: 0;
-    transform: translateX(-60px);
+    -webkit-transform: translate3d(-50px, 0, 0);
+    transform: translate3d(-50px,0,0);
   }
   100% {
     opacity: 1;
-    transform: translateX(0);
+    -webkit-transform: translate3d(0);
+    transform: translate3d(0);
   }
 }
          
