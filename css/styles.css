@@ -4716,7 +4716,7 @@ input[type="button"].btn--primary:focus {
   *-------------------------------------------------------------------*/
 
 /* Float four columns side by side */
-.column {
+.columnF {
   box-sizing: border-box;
   float: left;
   width: 25%;
@@ -4724,10 +4724,10 @@ input[type="button"].btn--primary:focus {
 }
 
 /* Remove extra left and right margins, due to padding */
-.row {margin: 0 -5px;}
+.rowF {margin: 0 -5px;}
 
 /* Clear floats after the columns */
-.row:after {
+.rowF:after {
   content: "";
   display: table;
   clear: both;
@@ -4735,7 +4735,7 @@ input[type="button"].btn--primary:focus {
 
 /* Responsive columns */
 @media screen and (max-width: 600px) {
-  .column {
+  .columnF {
     width: 100%;
     display: block;
     margin-bottom: 20px;
@@ -4743,7 +4743,7 @@ input[type="button"].btn--primary:focus {
 }
 
 /* Style the counter cards */
-.card {
+.cardF {
   font-family: Arial, Helvetica, sans-serif;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
