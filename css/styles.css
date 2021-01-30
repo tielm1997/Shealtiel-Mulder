@@ -4720,4 +4720,10 @@ input[type="button"].btn--primary:focus {
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
+  flex-grow: 1;
+}
+
+.container {
+    display: flex;
+    align-items: stretch;
 }
